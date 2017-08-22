@@ -1,0 +1,129 @@
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $small-devices) and (max-width: 991px) {
+    /*------------------------------------------------------------------
+        [ HEADER ]
+    -------------------------------------------------------------------*/
+    // code here...
+
+    .navbar {
+        .navbar-nav li{
+            span.dropdown-toggle {
+                &:after {
+                    display:none;
+                }
+            }
+
+        }
+    }
+
+    /*------------------------------------------------------------------
+        [ CONTENT ]
+    -------------------------------------------------------------------*/
+    // code here...
+
+    .banner {
+        .banner-content-wrapper {
+            .banner-content-container {
+                .banner-content__inner {
+                    padding: 50px 0 0;
+                }
+            }
+        }
+    }
+
+    // Main content
+
+.page-content {
+
+    .page-content__specialisation {
+
+        .blog__item--product {
+
+            .btn {
+                padding-left: 7px;
+                padding-right: 7px;
+            }
+
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+    // Pagination
+
+    .pagination>li>a, .pagination>li>span {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+
+    /*------------------------------------------------------------------
+        [ FOOTER ]
+    -------------------------------------------------------------------*/
+    // code here...
+    footer.site-footer {
+        .footer-info {
+            text-align: left;
+            .foo-titan {
+                text-align: right;
+            }
+        }
+    }
+
+    //  Custom toggle menu
+
+.navbar-toggle {
+    margin-right: 0;
+}
+
+.navbar-header {
+    float: none;
+}
+
+.navbar-toggle {
+    display: block;
+}
+
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.navbar-collapse.collapse {
+    display: none !important;
+}
+
+.navbar-nav {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.navbar-nav > li {
+    float: none;
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-text {
+    float: none;
+    margin: 15px 0;
+}
+
+.navbar-collapse.collapse {
+    display: none !important;
+}
+
+.navbar-collapse.collapse.in {
+    display: block !important;
+}
+
+.collapsing {
+    overflow: hidden !important;
+}
+
+}

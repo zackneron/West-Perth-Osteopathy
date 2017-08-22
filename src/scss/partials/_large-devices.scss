@@ -1,0 +1,70 @@
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $large-devices) {
+	/*------------------------------------------------------------------
+		[ HEADER ]
+	-------------------------------------------------------------------*/
+	// code here...
+
+
+
+
+	/*------------------------------------------------------------------
+		[ CONTENT ]
+	-------------------------------------------------------------------*/
+	// code here...
+
+	.nav>li>a {
+    font-size: 15px;
+    padding-right: 25px;
+    padding-left: 20px;
+	}
+
+	.banner {
+	position: relative;
+
+	.banner__overlay {
+		background-color: rgba(0,0,0,0.5);
+		z-index: 10;
+	}
+
+	.banner-content-wrapper {
+
+		.banner-content-container {
+			padding-top: 30px;
+
+			.banner-content__inner {
+				padding: 130px 0 0;
+			}
+		}
+	}
+}
+
+// Main content
+
+.page-content {
+
+    .page-content__specialisation {
+
+        .blog__item--product {
+
+            .btn {
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+
+            a {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.slick-slide .main-banner__image {
+    min-height: 575px;
+	}
+
+	/*------------------------------------------------------------------
+		[ FOOTER ]
+	-------------------------------------------------------------------*/
+	// code here...
+}

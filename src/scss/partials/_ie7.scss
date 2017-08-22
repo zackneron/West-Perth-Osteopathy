@@ -1,0 +1,39 @@
+.lt-ie8 {
+	.row {
+		margin: 0;
+	}
+	.col-md-6,
+	.col-md-5 { 
+		padding: 0;
+	}
+	.contact__form,
+	.contact__info {
+		width: 561px;
+	}
+	.contact__form {
+		margin-right: 48px;		
+		ul {
+			margin: 0;
+		}
+		.col-md-12,
+		.col-md-6 {
+			padding: 0;
+		}
+		.col-md-6 {
+			width: 256px;			
+		}
+	}
+	#field_1_1,
+	#field_1_6 {
+		margin-right: 48px;
+	}
+	.contact__gmaps {
+		iframe { 
+			width: 556px;
+		}
+	}
+	.contact__details-left,
+	.contact__details-right {
+		width: 280px;
+	}
+}

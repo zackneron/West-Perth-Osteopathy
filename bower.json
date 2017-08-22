@@ -1,0 +1,25 @@
+{
+  "name": "titan",
+  "version": "6.5.18",
+  "authors": [
+    "Titan Digital <http://www.titanweb.com.au/>"
+  ],
+  "description": "Titan wordpress template",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.5",
+    "fancybox": "~2.1.5",
+    "font-awesome": "fontawesome#~4.4.0",
+    "slick-carousel": "~1.5.5",
+    "elegant-icons": "*"
+  }
+}

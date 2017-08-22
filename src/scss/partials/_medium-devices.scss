@@ -1,0 +1,145 @@
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $medium-devices) {
+	/*------------------------------------------------------------------
+		[ HEADER ]
+	-------------------------------------------------------------------*/
+	// code here...
+
+	.nav>li>a {
+        font-size: 15px;
+        padding-right: 13px;
+        padding-left: 13px;
+    }
+
+	.navbar-toggle {
+    display: none;
+}
+
+.navbar-nav {
+  background-color: transparent;
+}
+
+// Dropdown menu
+
+    .menu-links {
+    .dropdown-custom {
+        background-color: transparent;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: none;
+        z-index: 10;
+
+        li {
+            float: left;
+            padding: 10px;
+            background: $white;
+            font-family: arial;
+            width: 230px;
+            a {
+                display: block;
+                background: $white;
+                text-decoration: none;
+                color: $lighten-green !important;
+
+                &:hover {
+                    color: $white !important;
+                    text-decoration: none;
+                    background: $lighten-green;
+                }
+            }
+
+            &:hover {
+            	background: $lighten-green;
+            }
+
+            &:first-child {margin-top: 10px; }
+        }
+    }
+
+    li.menu-item:hover .dropdown-custom {
+        display: block; position: absolute;
+    }
+
+    li.menu-item:hover .dropdown-custom li {
+        float: none;
+    }
+}
+
+	/*------------------------------------------------------------------
+		[ CONTENT ]
+	-------------------------------------------------------------------*/
+	// code here...
+
+	.banner {
+	position: relative;
+
+	.banner__overlay {
+		background-color: rgba(0,0,0,0.5);
+		z-index: 10;
+	}
+
+	.banner-content-wrapper {
+		top: 0;
+
+		.banner-content-container {
+			padding-top: 30px;
+
+			.banner-content__inner {
+				padding: 130px 0 0;
+			}
+		}
+	}
+}
+
+.slick-slide .main-banner__image {
+    min-height: 620px;
+	}
+
+	.content {
+		.massage__video {
+			max-width: 890px;
+		}
+	}
+
+// Main content
+
+.page-content {
+
+    .page-content__specialisation {
+        .blog-item {
+            .btn-success {
+                .fa-download {
+                    padding-left: 150px;
+                }
+            }
+        }
+
+        .blog__item--product {
+
+            .btn {
+                padding-left: 3px;
+                padding-right: 4px;
+            }
+
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+	/*------------------------------------------------------------------
+		[ FOOTER ]
+	-------------------------------------------------------------------*/
+	// code here...
+
+	footer.site-footer {
+    .footer-info {
+      text-align: left;
+      .foo-titan {
+        text-align: right;
+      }
+    }
+  }
+}

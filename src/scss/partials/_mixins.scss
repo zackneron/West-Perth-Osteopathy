@@ -1,0 +1,68 @@
+// Renders fully prefixed box-sizing
+@mixin box-sizing($box: border-box) {
+	$valid: true;
+	@if type-of($box) != "string" {
+		@warn "box: #{$box} is not a string";
+		$valid: false;
+	}
+	@if $valid == true {
+		@include prefixer(box-sizing, $box, webkit moz);
+	}
+}
+
+// Renders fully prefixed transform
+@mixin transform($property: none) {
+	$valid: false;
+	@if type-of($property) == "string" {
+		$valid: true;
+	}
+	@if type-of($property) == "list" {
+		$valid: true;
+	}
+	@if $valid == true {
+		@include prefixer(transform, $property, webkit moz ms);
+	} @else {
+		@warn "property: #{$property} is not a valid argument";
+	}
+}
+
+// Renders fully prefixed transistion
+@mixin transition($property: 0.15s) {
+	$valid: false;
+	@if type-of($property) == "string" {
+		$valid: true;
+	}
+	@if type-of($property) == "list" {
+		$valid: true;
+	}
+	@if type-of($property) == "number" {
+		$valid: true;
+	}
+	@if $valid == true {
+		@include prefixer(transition, $property, webkit moz ms);
+	} @else {
+		@warn "property: #{$property} is not a valid argument";
+	}
+}
+
+// Utility for prefixing mixins
+@mixin prefixer($property, $value, $prefixes: webkit moz) {
+	$valid: false;
+	@if type-of($property) == "string" {
+		$valid: true;
+	}
+	@if type-of($prefixes) == "list" {
+		$valid: true;
+	}
+	@if type-of($prefixes) == "string" {
+		$valid: true;
+	}
+	@if $valid == true {
+		@each $prefix in $prefixes {
+			#{"-" + $prefix + "-" + $property}: $value;
+		}
+		#{$property}: $value;
+	} @else {
+		@warn "Invalid arguments supplied";
+	}
+}

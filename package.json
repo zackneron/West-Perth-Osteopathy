@@ -1,0 +1,36 @@
+{
+  "name": "Titan",
+  "version": "6.5.19",
+  "description": "Titan wordpress template",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Gulp",
+    "Bower",
+    "Sass",
+    "Titan"
+  ],
+  "author": "Titan",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "bs-html-injector": "^3.0.1",
+    "gulp": "^3.9.1",
+    "gulp-bootlint": "^0.7.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "yargs": "^4.3.2"
+  }
+}

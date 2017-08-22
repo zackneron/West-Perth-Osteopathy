@@ -1,0 +1,237 @@
+// .titan-accordion {
+//     margin: 0;
+//     padding: 0;
+//     background: #2196F3;
+// }
+
+// .titan-accordion__submenu {
+//     margin: 0;
+//     padding: 0;
+//     .titan-accordion__li {
+//         background: #1976D2;
+//     }
+// }
+
+// .titan-accordion__li {
+//     border-top: 1px solid #fff;
+//     list-style: none;
+// }
+
+// .titan-accordion--child-1 { text-indent: 1em; }
+// .titan-accordion--child-2 { text-indent: 2em; }
+// .titan-accordion--child-3 { text-indent: 3em; }
+
+// .titan-accordion--clickable {
+//     background: url($img-url + 'accordion-arrow.png') no-repeat 96% 10px;
+//     cursor: pointer;
+// }
+
+// .titan-accordion--shown {
+//     background: url($img-url + 'accordion-arrow.png') no-repeat 96% -70px;
+// }
+
+// .titan-accordion__title {
+//     height: 48px;
+//     line-height: 48px;
+//     display: block;
+// }
+
+// .titan-accordion__title {
+//     a {
+//         color: #fff;
+//         display: block;
+//         padding: 0 1em;
+//         width: 84%;
+//     }
+// }
+
+.section-heading {
+    font-family: $GandhiSerif-regular;
+    font-size: 36px;
+    color: $lighten-green;
+    margin-top: 50px;
+}
+
+.banner-content-slide__form {
+    background-color: $lighten-green;
+    color: $white;
+    padding: 10px;
+}
+
+
+// Bootstrap custom
+
+.btn {
+    padding: 10px 20px;
+    font-family: $GandhiSerif-regular;
+    font-size: 18px;
+}
+
+.btn-default {
+    background-color: rgba(0,0,0,0.5);
+    border-color: transparent;
+    color: $white;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:visited {
+    background-color: rgba(0,0,0,0.5);
+    border-color: transparent;
+    color: $white;
+}
+
+.btn-success {
+    background-color: $lighten-green;
+    border-color: $lighten-green;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:visited {
+    background-color: $lighten-green;
+    border-color: $lighten-green;
+}
+
+.btn-success__cart {
+    background-color: $light-green;
+    border-color: $light-green;
+    color: $white;
+}
+
+.btn-success__cart:hover, .btn-success__cart:focus, .btn-success__cart:visited {
+    background-color: $light-green;
+    border-color: $light-green;
+    color: $white;
+}
+
+.btn-cart {
+    background-color: transparent;
+    border-color: $lighten-green;
+    color: $lighten-green !important;
+}
+
+.btn-cart:hover, .btn-cart:focus, .btn-cart:visited {
+    background-color: transparent;
+    border-color: $lighten-green;
+}
+
+.btn-left {
+    text-align: left;
+}
+
+.thumbnail {
+    border: none;
+
+    .caption{
+        padding: 20px 0;
+        color: $lighten-green;
+        .caption__price {
+            font-size: 28px;
+        }
+
+        a {
+            font-size: 18px;
+        }
+    }
+}
+
+.img-thumbnail {
+    border-color: $lighten-green;
+}
+
+.form-control {
+    color: $lighten-green;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+::-webkit-input-placeholder {
+    color: $lighten-green;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: $lighten-green;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: $lighten-green;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: $lighten-green;
+}
+
+.panel-group {
+
+    a:hover, a:focus {
+        text-decoration: none;
+    }
+    .panel-heading {
+        background: $lighten-green;
+        color: $white;
+        font-family: $GandhiSerif-regular;
+        font-size: 20px;
+    }
+}
+
+.breadcrumb {
+    padding: 0;
+    background-color: transparent;
+    a {
+        color: $gray;
+        font-size: 12px;
+    }
+}
+
+.breadcrumb>li+li:before {
+    color: $lighten-green;
+    font-family: "fontAwesome";
+    content: "\f054";
+    font-size: 12px;
+}
+
+
+.pagination>li>a, .pagination>li>span {
+    border: none;
+    padding: 10px 15px;
+    margin-right: 5px;
+    color: $white;
+    border-radius: 4px;
+    background-color: $lighten-green;
+}
+
+.pagination>li:first-child>a {
+    margin-right: 20px;
+}
+.pagination>li:last-child>a {
+    margin-left: 20px;
+}
+
+.pagination>li>a:hover,
+.pagination>li>a:focus {
+    color: $white;
+    background-color: $dark-green;
+}
+
+.input-group-addon {
+    background-color: $white;
+    border: none;
+    border-radius: 0;
+
+    .fa {
+        color: $lighten-green;
+    }
+}
+
+label {
+    font-weight: 200;
+}
+
+// Slick slider
+
+.slick-arrow {
+        display:none !important;
+    }
+
+    .slick-dots li button:before {
+    font-size: 20px;
+}
+
+.slick-dots li {
+    margin: 0 5px 15px 0;
+}

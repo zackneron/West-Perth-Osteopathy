@@ -1,0 +1,118 @@
+/* MEDIA QUERIES SCREEN SIZES */
+$xsmall-devices		: 0px;
+$small-devices		: 768px;
+$medium-devices		: 992px;
+$large-devices		: 1200px;
+
+/* URL's */
+$img-url			: '../images/';
+
+/* Font / Sizes */
+
+@font-face {
+  font-family: "GandhiSerif Regular";
+  font-weight: normal;
+  src: url("../font/gandhi_serif/GandhiSerif-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "GandhiSerif Italic";
+  font-weight: italic;
+  src: url("../font/gandhi_serif/GandhiSerif-Italic.otf") format("opentype");
+}
+@font-face {
+  font-family: "GandhiSerif Bold Italic";
+  src: url("../font/gandhi_serif/GandhiSerif-BoldItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "GandhiSerif Bold";
+  font-weight: bold;
+  src: url("../font/gandhi_serif/GandhiSerif-Bold.otf") format("opentype");
+}
+
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../font/roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("../font/roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("../font/roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto ExtraBold";
+  src: url("../font/roboto/Roboto-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  src: url("../font/roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Italic";
+  src: url("../font/roboto/Roboto-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Bold Italic";
+  src: url("../font/roboto/Roboto-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Black";
+  src: url("../font/roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: "Roboto SemiBold";
+  src: url("../font/roboto/Roboto-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "angelina";
+  src: url("../font/anja-denali_angelina/angelina.ttf");
+}
+
+$font-default		: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$GandhiSerif-regular: "GandhiSerif Regular", $font-default;
+$GandhiSerif-bold: "GandhiSerif Bold", $font-default;
+$GandhiSerif-italic: "GandhiSerif Italic", $font-default;
+$GandhiSerif-bold-italic: "GandhiSerif Bold Italic", $font-default;
+
+$Roboto-regular: "Roboto Regular", $font-default;
+$Roboto-medium: "Roboto Medium", $font-default;
+$Roboto-bold: "Roboto Bold", $font-default;
+$Roboto-extrabold: "Roboto ExtraBold", $font-default;
+$Roboto-light: "Roboto Light", $font-default;
+$Roboto-black: "Roboto Black", $font-default;
+$Roboto-semibold: "Roboto SemiBold", $font-default;
+$Roboto-italic: "Roboto Italic", $font-default;
+$Roboto-bold-italic: "Roboto Bold Italic", $font-default;
+
+$Angelina: "angelina", $font-default;
+
+$font16				: 16px;
+
+/* COLORS */
+$dark-gray			: #212121;
+$gray           : #555;
+$light-gray     : #e2e2e2;
+
+$dark-blue      : #15375c;
+
+$dark-green     : #0c7776;
+$light-green    : #42bb4a;
+$lighten-green  : #11a8a6;
+$lemon-green    : #eefdfb;
+
+$white          : #fff;
+
+
